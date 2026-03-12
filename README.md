@@ -67,25 +67,25 @@ DAGS_v1.1/
 
 ### Folder Roles
 
-**00_Governance/** Normative editorial governance, scope boundaries, terminology, language rules, and versioning controls applicable to this standard.
+**00_Governance/** *Normative editorial governance, scope boundaries, terminology, language rules, and versioning controls applicable to this standard.*
 
-**01_Standard_Overview/** Normative orientation materials defining purpose, audience, system scope framing, conformance and applicability.
+**01_Standard_Overview/** *Normative orientation materials defining purpose, audience, system scope framing, conformance and applicability.*
 
-**02_Control_Domains/** Normative domain structure, including domain overviews, requirements, and evidence principles.
+**02_Control_Domains/** *Normative domain structure, including domain overviews, requirements, and evidence principles.*
 
-**03_Control_Registry/** Normative control identifiers, naming conventions, and stability rules.
+**03_Control_Registry/** *Normative control identifiers, naming conventions, and stability rules.*
 
-**04_Evidence_Framework/** Normative principles defining acceptable evidence categories and prohibited evidence claims.
+**04_Evidence_Framework/** *Normative principles defining acceptable evidence categories and prohibited evidence claims.*
 
-**05_Cross-Cutting_Requirements/** Normative requirements that apply across domains (documentation, ownership, auditability/traceability).
+**05_Cross-Cutting_Requirements/** *Normative requirements that apply across domains (documentation, ownership, auditability/traceability).*
 
-**06_Prohibitions_and_Constraints/** Normative prohibitions, non-substitution rules, and misuse constraints.
+**06_Prohibitions_and_Constraints/** *Normative prohibitions, non-substitution rules, and misuse constraints.*
 
-**07_Appendices_(Normative)/** Normative appendices (definitions, mapping rules, legal/licensing notices, normative references).
+**07_Appendices_(Normative)/** *Normative appendices (definitions, mapping rules, legal/licensing notices, normative references).*
 
-**DAGS_v1.1_Canonical File List** Canonical inventory of required files for completeness and integrity checking.
+**DAGS_v1.1_Canonical File List** *Canonical inventory of required files for completeness and integrity checking.*
 
-**README_DAGS_v1.1** Repository guide and authority boundaries for this DAGS v1.1 package.
+**README_DAGS_v1.1** *Repository guide and authority boundaries for this DAGS v1.1 package.*
 
 ## 4. How to Read DAGS
 
@@ -93,14 +93,14 @@ Readers should proceed in the following order:
 
 DAGS_v1.1/
 
-  * 00_Governance/ (scope, authority, language, versioning)
-  * 01_Standard_Overview/ (purpose, audience, applicability)
-  * 02_Control_Domains/ (requirements and evidence principles)
-  * 03_Control_Registry/ (control identifiers and stability rules)
-  * 04_Evidence_Framework/ (evidence definitions and constraints)
-  * 05_Cross-Cutting_Requirements/ (requirements spanning domains)
-  * 06_Prohibitions_and_Constraints/ (explicit prohibitions and misuse rules)
-  * 07_Appendices_(Normative)/ (definitions, legal notices, references)
+  * 00_Governance/ *(scope, authority, language, versioning)*
+  * 01_Standard_Overview/ *(purpose, audience, applicability)*
+  * 02_Control_Domains/ *(requirements and evidence principles)*
+  * 03_Control_Registry/ *(control identifiers and stability rules)*
+  * 04_Evidence_Framework/ *(evidence definitions and constraints)*
+  * 05_Cross-Cutting_Requirements/ *(requirements spanning domains)*
+  * 06_Prohibitions_and_Constraints/ *(explicit prohibitions and misuse rules)*
+  * 07_Appendices_(Normative)/ *(definitions, legal notices, references)*
 
 Read the normative standard as a single, complete package.
 
