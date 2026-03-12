@@ -129,15 +129,11 @@ Use of DAGS does not guarantee outcomes, safety, legality, or acceptance by any 
 
 This repository contains DAGS v1.1, the current normative release. Version 1.0 was the foundational release. Version 1.1 is an additive minor release that extends v1.0 with agentic execution path governance controls.
 
-v1.1 is complete and authoritative
-
-v1.1 is immutable
-
-Future versions will be explicitly versioned and published
-
-All references to DAGS must cite the applicable version.
-
-Errata, if issued, will be versioned and published separately without retroactive modification of this release.
+- v1.1 is complete and authoritative
+- v1.1 is immutable
+- Future versions will be explicitly versioned and published
+- All references to DAGS must cite the applicable version.
+- Errata, if issued, will be versioned and published separately without retroactive modification of this release.
 
 ## 8. Misuse Warning
 
