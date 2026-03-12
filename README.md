@@ -153,7 +153,7 @@ Misuse invalidates claims of DAGS alignment.
 
 If there is any doubt about meaning, scope, applicability, or obligation:
 
-The entirety of the DAGS v1.1 package, as contained within the DAGS_v1.1 directory, is normative and controlling.
+> **The entirety of the DAGS v1.1 package, as contained within the DAGS_v1.1 directory, is normative and controlling.**
 
 ## 10. License & Authority
 
