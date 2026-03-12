@@ -44,7 +44,16 @@ If a statement, explanation, or artifact conflicts with the normative text, the 
 This document set is organized as a single normative standard package:
 
 DAGS_v1.1/
-00_Governance/    01_Standard_Overview/    02_Control_Domains/    03_Control_Registry/    04_Evidence_Framework/    05_Cross-Cutting_Requirements/    06_Prohibitions_and_Constraints/    07_Appendices_(Normative)/    DAGS_v1.1_Canonical_File_List    README_DAGS_v1.1
+00_Governance/
+01_Standard_Overview/
+02_Control_Domains/
+03_Control_Registry/
+04_Evidence_Framework/
+05_Cross-Cutting_Requirements/
+06_Prohibitions_and_Constraints/
+07_Appendices_(Normative)/
+DAGS_v1.1_Canonical_File_List
+README_DAGS_v1.1
 
 ### Folder Roles
 
