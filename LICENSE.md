@@ -66,7 +66,7 @@ Organizations remain fully responsible for their systems and representations.
 
 ## Canonical Legal Text
 
-The canonical legal language governing the standard is defined in this DAGS Canonical License Block, which must be reproduced verbatim in normative DAGS artifacts.
+The canonical legal language governing the standard is defined in the DAGS Canonical License Block, which must be reproduced verbatim in normative DAGS artifacts.
 
 Where any difference exists between this repository notice and the canonical legal determinations issued by the DAGS Governing Body, the canonical determinations govern.
 
