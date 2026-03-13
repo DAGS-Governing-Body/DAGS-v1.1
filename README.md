@@ -52,6 +52,7 @@ DAGS_v1.1/
 - 05_Cross-Cutting_Requirements/
 - 06_Prohibitions_and_Constraints/
 - 07_Appendices_(Normative)/
+- 08_Operational_Guidance_(Non-Normative)
 - DAGS_v1.1_Canonical_File_List
 - README_DAGS_v1.1
 
@@ -91,6 +92,7 @@ DAGS_v1.1/
   * 05_Cross-Cutting_Requirements/ *(requirements spanning domains)*
   * 06_Prohibitions_and_Constraints/ *(explicit prohibitions and misuse rules)*
   * 07_Appendices_(Normative)/ *(definitions, legal notices, references)*
+  * 08_Operational_Guidance_(Non-Normative)/ *(practical guidance)*
 
 Read the normative standard as a single, complete package.
 
