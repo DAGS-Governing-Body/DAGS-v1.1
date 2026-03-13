@@ -1,179 +1,243 @@
-# README — Repository Guide and Authority Boundaries
+# Deployment AI Governance Standard (DAGS) Repository
 
-## DAGS v1.1 Normative Standard
+## DAGS v1.1 — Normative Standard
+
+---
 
 ## 1. Purpose of This Repository
 
-This repository contains the Deployment AI Governance Standard (DAGS) and its associated governing materials.
-DAGS defines normative deployment-layer governance requirements for AI systems in operation. It is designed to be read, applied, and relied upon by enterprises, insurers, regulators, auditors, and governance practitioners.
+This repository contains the **Deployment AI Governance Standard (DAGS)** and its associated governing materials.
 
-This README exists to:
-* Orient readers to the structure of the repository
-* Clearly identify which materials are normative and binding
-* Prevent misinterpretation, substitution, or misuse
-* Establish how the standard must be read and applied
+DAGS defines **normative deployment-layer governance requirements for AI systems in operation**.
 
-This repository contains DAGS v1.1. 
+The standard is intended to be read, applied, and relied upon by:
 
-Version 1.1 is a minor additive release superseding v1.0. It preserves the five-domain architecture and all 57 v1.0 controls (D1.1–D5.13) without modification, and adds 14 new controls (D3.19–D3.32) clarifying how DAGS governance applies to agentic deployment environments in which AI-enabled systems execute sequences of consequential actions across multiple tools, services, and agents. 
+- enterprises
+- insurers
+- regulators
+- auditors
+- governance practitioners
 
-The DAGS v1.1 total control count is 71.
+This README provides orientation to the repository and establishes the boundaries of normative authority.
+
+The purposes of this document are to:
+
+- orient readers to the structure of the repository
+- identify which materials are **normative and binding**
+- prevent misinterpretation, substitution, or misuse
+- define how the standard must be read and applied
+
+This repository contains **DAGS v1.1**.
+
+Version **1.1** is an **additive minor release** superseding **v1.0**.
+
+It preserves the five-domain architecture and all **57 controls introduced in v1.0 (D1.1–D5.13)** without modification.
+
+Version **1.1** introduces **14 additional controls (D3.19–D3.32)** governing **agentic deployment environments**, in which AI-enabled systems initiate and propagate consequential actions across multiple tools, services, and agents.
+
+The **total normative control count in DAGS v1.1 is 71**.
+
+---
 
 ## 2. Normative Authority
 
-The only normative content in this repository is located in:
+The only **normative content** in this repository is located within:
 
-DAGS_v1.1/
+`DAGS_v1.1/`
 
-That folder contains the complete and authoritative DAGS v1.1 normative standard, including:
-* Governance rules
-* Control domains and requirements
-* Evidence principles
-* Control registry
-* Prohibitions and constraints
-* Normative appendices
+This directory contains the **complete and authoritative normative standard**, including:
 
-Nothing outside DAGS_v1.1/ modifies, interprets, weakens, or substitutes for those requirements.
+- governance rules
+- control domains and requirements
+- evidence principles
+- control registry
+- prohibitions and constraints
+- normative appendices
 
-Requirements documents contain binding control obligations. Domain Overview documents provide normative context but do not introduce additional control obligations beyond their associated Requirements documents.
+Nothing outside the `DAGS_v1.1/` directory modifies, interprets, weakens, or substitutes for these requirements.
 
-If a statement, explanation, or artifact conflicts with the normative text, the normative text governs.
+**Requirements documents** contain binding control obligations.
+
+**Domain Overview documents** provide normative context but do not introduce additional control obligations beyond their associated Requirements documents.
+
+If any explanation, artifact, or commentary conflicts with the normative text, **the normative text governs**.
+
+---
 
 ## 3. Repository Structure
 
-This document set is organized as a single normative standard package:
+The DAGS v1.1 standard is organized as a **single normative package**.
 
-DAGS_v1.1/
-- 00_Governance/
-- 01_Standard_Overview/
-- 02_Control_Domains/
-- 03_Control_Registry/
-- 04_Evidence_Framework/
-- 05_Cross-Cutting_Requirements/
-- 06_Prohibitions_and_Constraints/
-- 07_Appendices_(Normative)/
-- 08_Operational_Guidance_(Non-Normative)
-- DAGS_v1.1_Canonical_File_List
-- README_DAGS_v1.1
+`DAGS_v1.1/`
+
+- `00_Governance/`
+- `01_Standard_Overview/`
+- `02_Control_Domains/`
+- `03_Control_Registry/`
+- `04_Evidence_Framework/`
+- `05_Cross-Cutting_Requirements/`
+- `06_Prohibitions_and_Constraints/`
+- `07_Appendices_(Normative)/`
+- `08_Operational_Guidance_(Non-Normative)/`
+- `DAGS_v1.1_Canonical_File_List`
+- `README_DAGS_v1.1`
 
 ### Folder Roles
 
-**00_Governance/** *Normative editorial governance, scope boundaries, terminology, language rules, and versioning controls applicable to this standard.*
+**`00_Governance/`**  
+Normative editorial governance, scope boundaries, terminology definitions, language rules, and versioning controls applicable to the standard.
 
-**01_Standard_Overview/** *Normative orientation materials defining purpose, audience, system scope framing, conformance and applicability.*
+**`01_Standard_Overview/`**  
+Normative orientation materials defining purpose, audience, system scope framing, conformance, and applicability.
 
-**02_Control_Domains/** *Normative domain structure, including domain overviews, requirements, and evidence principles.*
+**`02_Control_Domains/`**  
+Normative domain structure including domain overviews, requirements, and evidence principles.
 
-**03_Control_Registry/** *Normative control identifiers, naming conventions, and stability rules.*
+**`03_Control_Registry/`**  
+Normative control identifiers, naming conventions, and stability rules.
 
-**04_Evidence_Framework/** *Normative principles defining acceptable evidence categories and prohibited evidence claims.*
+**`04_Evidence_Framework/`**  
+Normative principles defining acceptable evidence categories and prohibited evidence claims.
 
-**05_Cross-Cutting_Requirements/** *Normative requirements that apply across domains (documentation, ownership, auditability/traceability).*
+**`05_Cross-Cutting_Requirements/`**  
+Normative requirements applying across domains, including documentation, ownership, traceability, and accountability.
 
-**06_Prohibitions_and_Constraints/** *Normative prohibitions, non-substitution rules, and misuse constraints.*
+**`06_Prohibitions_and_Constraints/`**  
+Normative prohibitions, non-substitution rules, and misuse constraints.
 
-**07_Appendices_(Normative)/** *Normative appendices (definitions, mapping rules, legal/licensing notices, normative references).*
+**`07_Appendices_(Normative)/`**  
+Normative appendices including definitions, mapping rules, licensing notices, and normative references.
 
-**08_Operational_Guidance_(Non-Normative)/** *practical guidance (how DAGS requirements are applied in real deployment contexts).* 
+**`08_Operational_Guidance_(Non-Normative)/`**  
+Practical guidance illustrating how DAGS requirements may be applied in deployment environments.
 
-**DAGS_v1.1_Canonical File List** *Canonical inventory of required files for completeness and integrity checking.*
+**`DAGS_v1.1_Canonical_File_List`**  
+Canonical inventory of required files for completeness and integrity verification.
 
-**README_DAGS_v1.1** *Repository guide and authority boundaries for this DAGS v1.1 package.*
+**`README_DAGS_v1.1`**  
+Repository guide and authority boundaries for the DAGS v1.1 package.
+
+---
 
 ## 4. How to Read DAGS
 
-Readers should proceed in the following order:
+Readers should review the normative materials in the following order:
 
-DAGS_v1.1/
+1. `00_Governance/`
+2. `01_Standard_Overview/`
+3. `02_Control_Domains/`
+4. `03_Control_Registry/`
+5. `04_Evidence_Framework/`
+6. `05_Cross-Cutting_Requirements/`
+7. `06_Prohibitions_and_Constraints/`
+8. `07_Appendices_(Normative)/`
+9. `08_Operational_Guidance_(Non-Normative)/`
 
-  * 00_Governance/ *(scope, authority, language, versioning)*
-  * 01_Standard_Overview/ *(purpose, audience, applicability)*
-  * 02_Control_Domains/ *(requirements and evidence principles)*
-  * 03_Control_Registry/ *(control identifiers and stability rules)*
-  * 04_Evidence_Framework/ *(evidence definitions and constraints)*
-  * 05_Cross-Cutting_Requirements/ *(requirements spanning domains)*
-  * 06_Prohibitions_and_Constraints/ *(explicit prohibitions and misuse rules)*
-  * 07_Appendices_(Normative)/ *(definitions, legal notices, references)*
-  * 08_Operational_Guidance_(Non-Normative)/ *(practical guidance)*
+The normative standard should be read as a **single, complete package**.
 
-Read the normative standard as a single, complete package.
+Defined terms must be interpreted **exclusively as defined in the normative Definitions appendix**. Informal or colloquial interpretations are not authoritative.
 
-Defined terms shall be interpreted exclusively as defined in the normative Definitions appendix. Informal or colloquial interpretations are prohibited.
+Materials located outside the normative directory are explanatory only.
 
-Materials outside the normative folder are explanatory only.
+---
 
 ## 5. What DAGS Is — and Is Not
 
-**DAGS is:**
-* A deployment-layer AI governance standard
-* Normative and requirements-based
-* Evidence-oriented without prescribing procedures
-* System-scoped and version-stable
+### DAGS Is
 
-**DAGS is not:**
-* A certification program
-* A maturity model
-* A scoring framework
-* An implementation guide
-* A substitute for regulation or law
-No claim of certification, approval, endorsement, or compliance is authorized.
+- a **deployment-layer AI governance standard**
+- **normative and requirements-based**
+- **evidence-oriented** without prescribing operational procedures
+- **system-scoped and version-stable**
+
+### DAGS Is Not
+
+- a certification program
+- a maturity model
+- a scoring framework
+- an implementation guide
+- a substitute for regulation or law
+
+No claim of certification, approval, endorsement, or compliance under DAGS is authorized.
+
+---
 
 ## 6. Use and Reliance
 
 DAGS may be used for:
 
-* Governance assessment and analysis
-* Risk disclosure and oversight
-* Insurer, regulator, or auditor review
-* Internal governance design and evaluation
+- governance assessment and analysis
+- risk disclosure and oversight
+- insurer, regulator, or auditor review
+- internal governance design and evaluation
 
-Use of DAGS does not guarantee outcomes, safety, legality, or acceptance by any authority.
+Use of the standard does **not guarantee outcomes, safety, legality, or regulatory acceptance**.
+
+Organizations remain responsible for their governance implementations and external representations.
+
+---
 
 ## 7. Version Status
 
-This repository contains DAGS v1.1, the current normative release. Version 1.0 was the foundational release. Version 1.1 is an additive minor release that extends v1.0 with agentic execution path governance controls.
+This repository contains **DAGS v1.1**, the current normative release.
 
-- v1.1 is complete and authoritative
-- v1.1 is immutable
-- Future versions will be explicitly versioned and published
-- All references to DAGS must cite the applicable version.
-- Errata, if issued, will be versioned and published separately without retroactive modification of this release.
+Version **1.0** was the foundational release.
+
+Version **1.1** extends v1.0 by introducing controls governing **agentic execution path governance**.
+
+Version status:
+
+- v1.1 is **complete and authoritative**
+- v1.1 is **immutable**
+- future versions will be explicitly versioned and published
+- references to DAGS must cite the applicable version
+
+Errata, if issued, will be published separately and will not retroactively modify this release.
+
+---
 
 ## 8. Misuse Warning
 
 Any use of this repository that:
-* Alters normative requirements
-* Substitutes other frameworks or tools
-* Implies certification or endorsement
-* Selectively represents conformance
+
+- alters normative requirements
+- substitutes other frameworks or tools
+- implies certification or endorsement
+- selectively represents conformance
 
 constitutes misuse of the standard.
 
-Public representations inconsistent with normative requirements may constitute unauthorized use of the standard.
+Public representations inconsistent with normative requirements may constitute **unauthorized use of the standard**.
 
 Misuse invalidates claims of DAGS alignment.
 
+---
+
 ## 9. Final Authority Statement
 
-If there is any doubt about meaning, scope, applicability, or obligation:
+If any doubt arises regarding meaning, scope, applicability, or obligation:
 
-> **The entirety of the DAGS v1.1 package, as contained within the DAGS_v1.1 directory, is normative and controlling.**
+> **The complete DAGS v1.1 package contained within the `DAGS_v1.1/` directory is normative and controlling.**
 
-## 10. License & Authority
+---
 
-The Deployment AI Governance Standard (DAGS) is a publicly available governance standard made available for reference and implementation.
+## 10. License and Authority
 
-All intellectual property rights in DAGS, including the standard text, structure, methodology, and interpretive guidance, are retained by the DAGS Governing Body.
+The **Deployment AI Governance Standard (DAGS)** is a publicly available governance standard provided for reference and implementation guidance.
 
-Public availability of this document does not grant any license or right to use DAGS for commercial, advisory, certification, assurance, or assessment purposes. Such uses may require separate authorization or licensing from the DAGS Governing Body.
+All intellectual property rights in DAGS — including the standard text, structure, methodology, and interpretive guidance — are retained by the **DAGS Governing Body**.
+
+Public availability of this repository **does not grant any license or right** to use DAGS for commercial advisory, certification, assurance, or assessment purposes. Such uses may require separate authorization or licensing from the DAGS Governing Body.
 
 No rights are granted by implication, estoppel, or public distribution.
 
-Editorial, interpretive, versioning, and equivalency authority is retained exclusively by the DAGS Governing Body. No third party may issue authoritative interpretations, certifications, or compliance determinations without explicit written authorization.
+Editorial, interpretive, versioning, and equivalency authority is retained exclusively by the **DAGS Governing Body**. No third party may issue authoritative interpretations, certifications, or compliance determinations without explicit written authorization.
+
+---
 
 ## Deployment AI Governance Standard (DAGS) v1.1
 
-Status: Published
+**Status:** Published
 
 Copyright © DAGS Governing Body
 
