@@ -39,7 +39,7 @@ Requirements documents contain binding control obligations. Domain Overview docu
 
 If a statement, explanation, or artifact conflicts with the normative text, the normative text governs.
 
-## 3. Repository Structure (High-Level)
+## 3. Repository Structure
 
 This document set is organized as a single normative standard package:
 
