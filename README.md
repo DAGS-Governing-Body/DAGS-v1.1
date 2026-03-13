@@ -168,6 +168,9 @@ No rights are granted by implication, estoppel, or public distribution.
 Editorial, interpretive, versioning, and equivalency authority is retained exclusively by the DAGS Governing Body. No third party may issue authoritative interpretations, certifications, or compliance determinations without explicit written authorization.
 
 ## Deployment AI Governance Standard (DAGS) v1.1
+
 Status: Published
+
 Copyright © DAGS Governing Body
+
 All Rights Reserved
