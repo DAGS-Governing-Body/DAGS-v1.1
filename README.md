@@ -74,7 +74,7 @@ DAGS_v1.1/
 
 **07_Appendices_(Normative)/** *Normative appendices (definitions, mapping rules, legal/licensing notices, normative references).*
 
-**08_Operational_Guidance_(Non-Normative)/** *practical guidance (how DAGS requirements are applied in real deployment contexts)* 
+**08_Operational_Guidance_(Non-Normative)/** *practical guidance (how DAGS requirements are applied in real deployment contexts).* 
 
 **DAGS_v1.1_Canonical File List** *Canonical inventory of required files for completeness and integrity checking.*
 
